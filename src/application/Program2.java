@@ -30,13 +30,13 @@ public class Program2 {
 			System.out.println(obj);
 		}
 
-//		System.out.println("=== TEST 3: Department Insert ===");
-//
-//		Department newDep = new Department(null, "Baby Clothes");
-//
-//		departmentDao.insert(newDep);
-//
-//		System.out.println("Inserted! New id = " + newDep.getId());
+		System.out.println("=== TEST 3: Department Insert ===");
+
+		Department newDep = new Department(null, "Baby Clothes");
+
+		departmentDao.insert(newDep);
+
+		System.out.println("Inserted! New id = " + newDep.getId());
 
 		System.out.println("=== TEST 5: Department Update ===");
 
